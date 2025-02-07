@@ -22,9 +22,9 @@ public class Circus {
             if (e.getValue() <= 5) {
                 System.out.println("Ignoring low value item: " + e.getValue());
             } else {
-                total += e.getValue();
-                System.out.println("Adding item value: " + e.getValue());
-                // some 
+              total += e.getValue();
+              System.out.println("Adding item value: " + e.getValue());
+                // some
                 // more
                 // code 
                 // here ...

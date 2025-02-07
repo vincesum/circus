@@ -1,3 +1,5 @@
+package circus;
+
 public class Circus {
     private static Animal[] animals = {
             new Duck(),

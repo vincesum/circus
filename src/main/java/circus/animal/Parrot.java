@@ -7,6 +7,11 @@ public class Parrot extends Bird {
     }
 
     @Override
+    public int getValue() {
+        return 20;
+    }
+
+    @Override
     public String toString() {
         return "I'm a parrot";
     }

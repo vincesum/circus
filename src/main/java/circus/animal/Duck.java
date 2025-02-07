@@ -7,6 +7,11 @@ public class Duck extends Bird {
     }
 
     @Override
+    public int getValue() {
+        return 10;
+    }
+
+    @Override
     public String toString() {
         return "I'm a Duck";
     }
